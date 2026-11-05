@@ -22,4 +22,14 @@ class Basics986Test {
         assertTrue(Basics986.divisibleByTwo(4));
         assertFalse(Basics986.divisibleByTwo(7));
     }
+
+    @Test
+    void distanceFromZeroWorks() {
+        assertEquals(2, Basics986.distanceFromZero(2));
+    }
+
+    @Test
+    void surfaceWorks() {
+        assertEquals(4, Basics986.surface(2,2));
+    }
 }
