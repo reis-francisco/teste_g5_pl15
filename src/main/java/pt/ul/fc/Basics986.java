@@ -56,7 +56,7 @@ public class Basics986 {
      * Returns the absolute value of number.
      */
     public static int distanceFromZero(int number) {
-        return -Math.abs(number);
+        return Math.abs(number);
     }
 
     /**
@@ -70,6 +70,6 @@ public class Basics986 {
      * Returns the area of a rectangle with the given w and h.
      */
     public static int surface(int w, int h) {
-        return 2 * (w + h);
+        return w * h;
     }
 }
